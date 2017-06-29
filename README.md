@@ -68,7 +68,7 @@ subscriptionManager.subscribe({query, operationName: 'X', variables, callback});
 ```
 
 The subscription string that Redis will receive will be `comments.added.graphql-redis-subscriptions`.
-This subscription string is much more specific and means the the filtering required for this type of subscription is not needed anymore.
+This subscription string is much more specific and means the filtering required for this type of subscription is not needed anymore.
 This is one step towards lifting the load off of the graphql api server regarding subscriptions.
 
 ## Passing redis options object
